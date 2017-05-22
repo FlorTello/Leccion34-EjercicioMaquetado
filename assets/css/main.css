@@ -39,8 +39,8 @@ div.promo{
   color: #3498DB;
 }
 .icon{
-  width: 50px;
-  height: 50px;
+  width: 70px;
+  height: 70px;
   display: inline-block;
   font-size: 300px;
   background-size: contain;
@@ -58,6 +58,7 @@ div.promo{
 .section-hero{
   position: relative;
   min-height: 610px;
+  background-color: #F9F9F9;
 }
 .div-hero{
   background-size: cover;
@@ -105,22 +106,24 @@ div.promo{
 header .info{
   margin-top: 70px;
 }
-header h1{
+header h1,
+#promise h1,
+#community h1{
   font-size: 60px;
   font-weight: 100;
 }
+.works{
+  background-color: #F9F9F9;
+}
 .works h2{
-  color: #3498DB;
   line-height: 70px;
-  font-size: 48px;
-  font-weight: 200;
+  font-size: 3rem;
+  font-weight:600;
 }
 .works p {
-  color: #494949;
   line-height: 36px;
   font-weight: 600;
   font-size: 1.6rem;
-
 }
 .works .div-icon{
   width: 240px;
@@ -134,6 +137,28 @@ header h1{
 .works .icon{
   width: 170px;
   height: 175px;
+}
+#works,
+#promise,
+#community{
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  color: #494949;
+}
+#promise div{
+  padding-top: 30px;
+}
+#promise h5, #promise span{
+  color: #6ea43f;
+  font-size: 2rem;
+}
+.promise p{
+  line-height: 24px;
+  font-weight: 100;
+  font-size: 1.6rem;
+}
+#community{
+  background-color: #75B9E7;
 }
 @media (max-width: 768px){
   .section-hero{
@@ -178,13 +203,16 @@ header h1{
   .div-work{
     text-align: center;
   }
+  #promise p{
+    text-align: left;
+  }
 }
 @media (min-width: 768px){
+  .large-hidden{
+    display: none;
+  }
   .logo {
       width: 120px;
   }
-    #works{
-      padding-top: 5rem;
-      padding-bottom: 5rem;
-    }
+
 }
