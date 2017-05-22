@@ -46,15 +46,12 @@ div.promo{
 }
 .section-hero{
   position: relative;
-  /*overflow: auto;*/
   min-height: 580px;
 }
 .div-hero{
   background-size: cover;
   background-position: center;
-  background-color: #9ACCEF;
   min-height: 480px;
-
 }
 .section-hero a:hover{
   color: #3498DB;
@@ -66,7 +63,6 @@ div.promo{
   margin-top: 30px;
   border-radius: 30px;
   font-weight: bold;
-  /*background-color: #3498DB;*/
   border: #3498DB;
 }
 .imgs-hero span:nth-child(1){
