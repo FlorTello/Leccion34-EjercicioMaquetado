@@ -35,7 +35,7 @@
                 <li role="presentation" class="text-capitalize"><a class="text-white " href="#community">our community  </a></li>
                 <li role="presentation" class="text-capitalize"><a class="text-white " href="#checklist">cleaning checklist </a></li>
                 <li class="pull-right"><a href="" class="text-white ">
-                  <i class="glyphicon glyphicon-user" aria-hidden="true"></i>
+                  <i class="glyphicon glyphicon-user border-icons" aria-hidden="true"></i>
                   <span>hello@thisisneat.com.au</span>
                 </a></li>
               </ul>
@@ -225,9 +225,9 @@
       </div>
     </div>
     </div>
-    <div class="imgs-comminity container text-center">
+    <div class="container text-center">
       <div class="imgs-comminity row">
-        <div class="col-lg-12 col-xs-10">
+        <div class="col-xs-12 col-sm-12 col-md-10 col-lg-12">
           <img class="z-index-1" width="220" src="assets/images/gallery/oven-cleaner.jpg" alt="...">
           <img class="z-index-2" width="220" src="assets/images/gallery/carpet-steam-cleaning.jpg" alt="...">
           <img class="z-index-1" width="220" src="assets/images/gallery/oven-cleaning.jpg" alt="...">
@@ -253,7 +253,7 @@
       </div>
     </div>
     <div class="row">
-      <div class="col-lg-4">
+      <div class="col-lg-4 col-xs-12">
         <li class="list-group-item text-center">
           <h3>Rooms</h3>
           includes all rooms, kitchens, bathrooms
@@ -302,7 +302,7 @@
           </li>
         </ul>
       </div>
-      <div class="col-lg-4 div-checklist">
+      <div class="col-lg-4 col-xs-12 div-checklist">
         <li class="list-group-item text-center">
           <h3>Kitchen</h3>
         </li>
@@ -337,7 +337,7 @@
           </li>
         </ul>
       </div>
-      <div class="col-lg-4 ">
+      <div class="col-lg-4 col-xs-12">
         <li class="list-group-item text-center">
           <h3>Bathroom</h3>
         </li>
@@ -378,7 +378,7 @@
       </div>
     </div>
     <div class="row">
-      <div class="col-lg-4">
+      <div class="col-lg-4 col-xs-12">
         <li class="list-group-item text-center">
           <h3>Laundry</h3>
         </li>
@@ -401,7 +401,7 @@
           </li>
         </ul>
       </div>
-      <div class="col-lg-4">
+      <div class="col-lg-4 col-xs-12">
         <li class="list-group-item text-center">
           <h3>Balcony</h3>
         </li>
@@ -420,7 +420,7 @@
           </li>
         </ul>
       </div>
-      <div class="col-lg-4">
+      <div class="col-lg-4 col-xs-12">
         <li class="list-group-item text-center">
           <h3>Garage</h3>
         </li>
@@ -444,26 +444,238 @@
   </section>
   <section class="quote" id="quote">
     <div class="container">
-      <div class="row">
-        <form action="col-xs-3">
-          <div class="col col-lg-8 col-lg-offset-2 col-xs-12 text-center">
-            <h1 class="">Get Your Quote</h1>
-            <h3 class="">Let us know the details of your home and we'll
-              provide you with an instant quote.</h3>
+      <div class="row  hidden-lg">
+        <div class="col col-lg-8 col-lg-offset-2 col-xs-12 text-center">
+          <h1 class="text-blue">Get Your Quote</h1>
+          <h3 class="">Let us know the details of your home and we'll
+            provide you with an instant quote.</h3>
+        </div>
+      </div>
+    <div class="col-lg-10 col-lg-offset-1 ">
+
+      <div class="for-form">
+          <div class="form-group hidden-xs text-center">
+            <h1 class="text-blue">Get Your Quote</h1>
+            <h4 class="">Let us know the details of your home and we'll <br>
+              provide you with an instant quote.</h4>
           </div>
-          <div class="checkbox" data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
-            <label><input type="checkbox" value="" >Option 2</label>
-          </div>
-          <div class="collapse" id="collapseExample">
-            <div class="well">
-              ...
+          <div class="form-group row">
+            <div class="col-xs-12 col-lg-3 push-right">
+              <h4 class="text-blue">Property Type</h4>
+              <p class="">All properties must be unfurnished.</p>
+            </div>
+            <div class="col-xs-12 col-lg-3">
+              <span class="icon icon--property-studio" aria-hidden="true"></span>
+              <span> Studio</span>
+            </div>
+            <div class="col-xs-12 col-lg-3">
+              <span class="icon icon--property-apartment" aria-hidden="true"></span>
+              <span>Apartment</span>
+            </div>
+            <div class="col-xs-12 col-lg-3">
+              <span class="icon icon--property-house" aria-hidden="true"></span>
+              <span>House</span>
             </div>
           </div>
-        </form>
+          <hr class="col-xs-11 divider ">
+          <div class="form-group row">
+            <div class="col-xs-12 col-lg-3 push-right">
+              <h4 class="text-blue">Rooms</h4>
+              <p class="">We base our quotes <a class="text-blue" href="">standard room specifications.</a></p>
+            </div>
+            <div class="col-xs-12 col-lg-3">
+              <div class="col-lg-12 col-xs-12">
+                <label for="bedroom">Bedroom</label>
+          			<div class="input-group number-spinner">
+          				<span class="input-group-btn">
+          					<button class="btn btn-default" data-dir="dwn">+</button>
+          				</span>
+          				<input type="text" class="form-control text-center" value="1">
+          				<span class="input-group-btn">
+          					<button class="btn btn-default" data-dir="up">+</button>
+          				</span>
+          			</div>
+          		</div>
+              <div class="col-lg-12 col-xs-12">
+                <label for="bedroom">Living Room</label>
+                <div class="input-group number-spinner">
+                  <span class="input-group-btn">
+                    <button class="btn btn-default" data-dir="dwn">+</button>
+                  </span>
+                  <input type="text" class="form-control text-center" value="1">
+                  <span class="input-group-btn">
+                    <button class="btn btn-default" data-dir="up">+</button>
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div class="col-xs-12 col-lg-3">
+              <div class="col-lg-12 col-xs-12">
+                <label for="bedroom">Bedroom</label>
+                <div class="input-group number-spinner">
+                  <span class="input-group-btn">
+                    <button class="btn btn-default" data-dir="dwn">+</button>
+                  </span>
+                  <input type="text" class="form-control text-center" value="1">
+                  <span class="input-group-btn">
+                    <button class="btn btn-default" data-dir="up">+</button>
+                  </span>
+                </div>
+              </div>
+              <div class="col-lg-12 col-xs-12">
+                <label for="bedroom">Living Room</label>
+                <div class="input-group number-spinner">
+                  <span class="input-group-btn">
+                    <button class="btn btn-default" data-dir="dwn">+</button>
+                  </span>
+                  <input type="text" class="form-control text-center" value="1">
+                  <span class="input-group-btn">
+                    <button class="btn btn-default" data-dir="up">+</button>
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div class="col-xs-12 col-lg-3">
+              <div class="col-lg-12 col-xs-12">
+                <label for="bedroom">Dining Room</label>
+                <div class="input-group number-spinner">
+                  <span class="input-group-btn">
+                    <button class="btn btn-default" data-dir="dwn">+</button>
+                  </span>
+                  <input type="text" class="form-control text-center" value="1">
+                  <span class="input-group-btn">
+                    <button class="btn btn-default" data-dir="up">+</button>
+                  </span>
+                </div>
+              </div>
+              <div class="col-lg-12 col-xs-12">
+                <label for="bedroom">Bedroom</label>
+                <div class="input-group number-spinner">
+                  <span class="input-group-btn">
+                    <button class="btn btn-default" data-dir="dwn">+</button>
+                  </span>
+                  <input type="text" class="form-control text-center" value="1">
+                  <span class="input-group-btn">
+                    <button class="btn btn-default" data-dir="up">+</button>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <hr class="col-xs-11 divider ">
+          <div class="form-group row">
+            <div class="col-xs-12 col-lg-3 push-right">
+              <h4 class="text-blue">Property Type</h4>
+              <p class="">All properties must be unfurnished.</p>
+            </div>
+            <div class="col-xs-12 col-lg-3">
+              <div class="col-lg-12 col-xs-12">
+                <label for="bedroom">Bedroom</label>
+                <div class="input-group number-spinner">
+                  <span class="input-group-btn">
+                    <button class="btn btn-default" data-dir="dwn">+</button>
+                  </span>
+                  <input type="text" class="form-control text-center" value="1">
+                  <span class="input-group-btn">
+                    <button class="btn btn-default" data-dir="up">+</button>
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div class="col-xs-12 col-lg-3">
+              <div class="col-lg-12 col-xs-12">
+                <label for="bedroom">Bedroom</label>
+                <div class="input-group number-spinner">
+                  <span class="input-group-btn">
+                    <button class="btn btn-default" data-dir="dwn">+</button>
+                  </span>
+                  <input type="text" class="form-control text-center" value="1">
+                  <span class="input-group-btn">
+                    <button class="btn btn-default" data-dir="up">+</button>
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div class="col-xs-12 col-lg-3">
+              <div class="col-lg-12 col-xs-12">
+                <label for="bedroom">Bedroom</label>
+                <div class="input-group number-spinner">
+                  <span class="input-group-btn">
+                    <button class="btn btn-default" data-dir="dwn">+</button>
+                  </span>
+                  <input type="text" class="form-control text-center" value="1">
+                  <span class="input-group-btn">
+                    <button class="btn btn-default" data-dir="up">+</button>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <hr class="col-xs-11 divider ">
+          <div class="form-group row">
+            <div class="col-xs-12 col-lg-3 push-right">
+              <h4 class="text-blue">Extras</h4>
+              <p class="">Although these requests are optional, you should still
+                 check with your agent about the requirements of your home.</p>
+            </div>
+            <div class="col-xs-12 col-lg-9">
+              <div class="col-xs-12 col-lg-12">
+                <div class="checkbox" data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                  <label><input type="checkbox" value="" >Option 2</label>
+                </div>
+                <div class="collapse" id="collapseExample">
+                  <div class="well">
+                    <label for="bedroom">Living Room</label>
+                     <div class="input-group col-sm-4 col-lg-4">
+                       <span class="input-group-addon" id="basic-addon1">-</span>
+                       <input type="text" class="form-control" aria-describedby="basic-addon1" value="1">
+                       <span class="input-group-addon" id="basic-addon1">+</span>
+                     </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xs-12 col-lg-12">
+                <div class="checkbox" data-toggle="collapse" href="#collapseExample1" aria-expanded="false" aria-controls="collapseExample">
+                  <label><input type="checkbox" value="" >Option 2</label>
+                </div>
+                <div class="collapse" id="collapseExample1">
+                  <div class="well">
+                    <label for="bedroom">Living Room</label>
+                     <div class="input-group col-sm-4 col-lg-4">
+                       <span class="input-group-addon" id="basic-addon1">-</span>
+                       <input type="text" class="form-control" aria-describedby="basic-addon1" value="1">
+                       <span class="input-group-addon" id="basic-addon1">+</span>
+                     </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xs-12 col-lg-12">
+                <div class="checkbox" data-toggle="collapse" href="#collapseExample2" aria-expanded="false" aria-controls="collapseExample">
+                  <label><input type="checkbox" value="" >Option 2</label>
+                </div>
+                <div class="collapse" id="collapseExample2">
+                  <div class="well">
+                    <label for="bedroom">Living Room</label>
+                     <div class="input-group col-sm-4 col-lg-4">
+                       <span class="input-group-addon" id="basic-addon1">-</span>
+                       <input type="text" class="form-control" aria-describedby="basic-addon1" value="1">
+                       <span class="input-group-addon" id="basic-addon1">+</span>
+                     </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <hr class="col-xs-11 divider ">
+          <div class="form-group text-center">
+              <button type="button" class="btn btn-success btn-border-form">Get your quote</button>
+          </div>
       </div>
     </div>
+
+    </div>
   </section>
-  <footer class="" id ="footer">
+  <footer class="container-fluid" id ="footer">
     <div class="container">
     <div class="row">
       <div class="col-lg-6">
