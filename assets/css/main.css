@@ -209,6 +209,21 @@ header h1,
 footer{
   background-color: #3498DB;
 }
+.footer-social a{
+  display: inline-block;
+   background-color: #1280c9 ;
+   border-radius: 50%;
+   margin: 0 5px;
+   width: 50px;
+   height: 50px;
+}
+.footer-social a:hover{
+  background-color: #0e629a ;
+}
+footer nav a:hover{
+  background-color: #3498DB!important;
+  color: #1280c9 !important;
+}
 #quote{
   background-color: #EEEEEE;
 }
