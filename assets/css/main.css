@@ -116,6 +116,9 @@ div.promo{
 header .info{
   margin-top: 70px;
 }
+.div-button{
+  z-index: 400;
+}
 header h1,
 #promise h1,
 #community h1,
@@ -200,6 +203,44 @@ footer{
 }
 #quote{
   background-color: #EEEEEE;
+}
+.div-list .list-group-item:last-child{
+  padding-bottom: 185px;
+}
+.div-list1 .list-group-item:last-child{
+  padding-bottom: 140px;
+}
+.div-list3 .list-group-item:last-child{
+  padding-bottom: 60px;
+}
+.div-list::before,
+.div-list1::before{
+  content: "";
+  border-left: double #ECBBB6;
+  left: 63px;
+  position: absolute;
+  height: 83.5%;
+  z-index: 200;
+  margin-right: 40px;
+}
+.div-list0::before{
+  content: "";
+  border-left: double #ECBBB6;
+  left: 63px;
+  position: absolute;
+  height: 77%;
+  z-index: 200;
+  margin-right: 40px;
+}
+.div-list2::before,
+.div-list3::before{
+  content: "";
+  border-left: double #ECBBB6;
+  left: 63px;
+  position: absolute;
+  height: 66%;
+  z-index: 200;
+  margin-right: 40px;
 }
 @media (max-width: 768px){
   .section-hero{
