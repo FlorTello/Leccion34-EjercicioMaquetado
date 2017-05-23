@@ -42,9 +42,14 @@ div.promo{
   width: 70px;
   height: 70px;
   display: inline-block;
-  font-size: 300px;
+  font-size: 2rem;
   background-size: contain;
   vertical-align: middle;
+}
+.icon-close{
+  width: 25px;
+  height: 25px;
+  background-size: cover;
 }
 .border-icons{
   padding: 5%;
@@ -108,7 +113,8 @@ header .info{
 }
 header h1,
 #promise h1,
-#community h1{
+#community h1,
+#checklist h1{
   font-size: 60px;
   font-weight: 100;
 }
@@ -141,7 +147,8 @@ header h1,
 }
 #works,
 #promise,
-#community{
+#community,
+#checklist{
   padding-top: 5rem;
   padding-bottom: 5rem;
   color: #494949;
@@ -160,6 +167,31 @@ header h1,
 }
 #community{
   background-color: #75B9E7;
+}
+.z-index-1{
+  position: absolute;
+  -ms-transform: rotate(-5deg);
+      -webkit-transform: rotate(-5deg);
+      transform: rotate(-5deg);
+}
+.z-index-2{
+  -ms-transform: rotate(5deg);
+    -webkit-transform: rotate(5deg);
+    transform: rotate(5deg);
+    margin-left: -3px;
+}
+.z-index-1:hover,
+.z-index-2:hover{
+  -ms-transform: rotate(20deg);
+   -webkit-transform: rotate(20deg);
+   transform: rotate(20deg);
+}
+#checklist,
+footer{
+  background-color: #3498DB;
+}
+#quote{
+  background-color: #EEEEEE;
 }
 @media (max-width: 768px){
   .section-hero{
@@ -208,6 +240,13 @@ header h1,
   #promise p{
     text-align: left;
   }
+  .z-index-1,
+  .z-index-2{
+    /*width: 20vh;
+    height: 20vh;*/
+    width: 150px;
+    height: 150px;
+  }
 }
 @media (min-width: 768px){
   .large-hidden{
@@ -215,6 +254,11 @@ header h1,
   }
   .logo {
       width: 120px;
+  }
+  .z-index-1,
+  .z-index-2{
+    /*width: 210px;
+    height: 210px;*/
   }
 
 }
